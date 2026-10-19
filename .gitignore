@@ -1,0 +1,16 @@
+# окружение
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# исходные датасеты — скачиваются по ссылкам из data/README.md
+data/raw/
+
+# веса моделей
+*.pt
+*.pth
+**/checkpoints/
+
+# системное
+.DS_Store
+.claude/
